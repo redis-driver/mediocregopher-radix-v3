@@ -36,12 +36,10 @@ func (c Client) RedisCommand(ctx context.Context, valuePtr interface{}, args []s
 	return
 }
 
-func (c Client)  RedisScript (ctx context.Context, script redScript.Script) (result struct { IsNil bool }, err error){
-	data := radix.MaybeNil{Rcv: script.ValuePtr}
-	err = c.Core. Do(radix.NewEvalScript(len(script.Keys), script.Script).Cmd(&data, append(script.Keys, script.Args...)...)) ; if err != nil {
+func (c Client)  RedisScript (ctx context.Context, script redScript.Script) (err error){
+	err = c.Core.Do(radix.NewEvalScript(len(script.Keys), script.Script).Cmd(script.ValuePtr, append(script.Keys, script.Args...)...)) ; if err != nil {
 		return
 	}
-	result.IsNil = data.Nil
 	return
 }
 
