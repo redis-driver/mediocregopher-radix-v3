@@ -4,6 +4,8 @@ github.com/mediocregopher/radix/v3 v3.7.0/go.mod h1:8FL3F6UQRXHXIBSPUs5h0RybMF8i
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/redis-driver/script v0.0.0-20210218124209-40ab117c8db3 h1:SweEkW9v8EXkAk/KTU0h9iTloDWd7nsnmgLdzS/1KSc=
 github.com/redis-driver/script v0.0.0-20210218124209-40ab117c8db3/go.mod h1:2zrX0XkT2R4GdK4kvfgkgem0FyfHdAkfAtrMvckI6js=
+github.com/redis-driver/script v0.0.0-20210329085754-64751f4a28db h1:ht6pKQ2dN0u19WPx6oBAtEBuuLcDFfCTtMLQcVmV1LY=
+github.com/redis-driver/script v0.0.0-20210329085754-64751f4a28db/go.mod h1:2zrX0XkT2R4GdK4kvfgkgem0FyfHdAkfAtrMvckI6js=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 golang.org/x/xerrors v0.0.0-20191011141410-1b5146add898 h1:/atklqdjdhuosWIl6AIbOeHJjicWYPqR9bpxqxYG2pA=
 golang.org/x/xerrors v0.0.0-20191011141410-1b5146add898/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
